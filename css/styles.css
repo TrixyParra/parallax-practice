@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: brown;
+    margin: 0;
 }
 
 /* Navbar */
@@ -9,4 +13,20 @@ body {
 
 .navbar-toggler-icon {
     color: white;
+}
+
+/* Header */
+.hero-image {
+    /* "linear-gradient" adds a darken background effect to the image - makes text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/road-trip.jpg");
+    height: 100vh; 
+    /* Positions and centers the image to scale well on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Parallax */
+.parallax-one {
+    
 }
