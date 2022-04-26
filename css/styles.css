@@ -1,0 +1,12 @@
+body {
+    background-color: brown;
+}
+
+/* Navbar */
+.nav-brand {
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
