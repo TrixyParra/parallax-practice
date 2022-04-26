@@ -6,27 +6,37 @@ body {
     margin: 0;
 }
 
+
 /* Navbar */
 .nav-brand {
     text-decoration: none;
 }
+/* End of Navbar */
 
-.navbar-toggler-icon {
-    color: white;
-}
 
 /* Header */
 .hero-image {
     /* "linear-gradient" adds a darken background effect to the image - makes text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/road-trip.jpg");
     height: 100vh; 
-    /* Positions and centers the image to scale well on all screens */
+    /* positions and centers the image to scale well on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End of Header */
+
+
+/* Parallax */
+.parallax-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cliffs-of-moher-.jpg");
+    height: 100vh;
+    background-attachment: fixed;  /* parallax scrolling effect */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* Parallax */
-.parallax-one {
-    
+.text-box {
+    background-color: rgba(0, 0, 0, 0.6);  /* gives transparent background */
 }
