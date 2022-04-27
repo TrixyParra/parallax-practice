@@ -1,3 +1,7 @@
+/* Font Styles
+font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif; */
+
 * {
     box-sizing: border-box;
 }
@@ -8,6 +12,10 @@ body {
 
 
 /* Navbar */
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .nav-brand {
     text-decoration: none;
 }
@@ -23,6 +31,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Lobster', cursive;
 }
 /* End of Header */
 
@@ -39,6 +48,7 @@ body {
 
 .text-box {
     background-color: rgba(0, 0, 0, 0.5);  /* gives transparent background */
+    font-family: 'Open Sans', sans-serif;
 }
 
 .parallax-two {
