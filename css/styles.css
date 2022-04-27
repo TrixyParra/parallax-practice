@@ -29,7 +29,7 @@ body {
 
 /* Parallax */
 .parallax-one {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cliffs-of-moher-.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/canyon.jpg");
     height: 100vh;
     background-attachment: fixed;  /* parallax scrolling effect */
     background-position: center;
@@ -38,5 +38,33 @@ body {
 }
 
 .text-box {
-    background-color: rgba(0, 0, 0, 0.6);  /* gives transparent background */
+    background-color: rgba(0, 0, 0, 0.5);  /* gives transparent background */
 }
+
+.parallax-two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/waterfall.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ice-cave.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-four {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/rhino-rock.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End of Parallax */
