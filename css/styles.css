@@ -78,3 +78,13 @@ body {
     background-size: cover;
 }
 /* End of Parallax */
+
+/* Footer */
+footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fa-brands {
+    color: white;
+}
+/* End of Footer */ 
