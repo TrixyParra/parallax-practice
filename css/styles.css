@@ -38,7 +38,7 @@ body {
 
 /* Parallax */
 .parallax-one {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/canyon.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/canyon.jpg");
     height: 100vh;
     background-attachment: fixed;  /* parallax scrolling effect */
     background-position: center;
@@ -52,7 +52,7 @@ body {
 }
 
 .parallax-two {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/waterfall.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/waterfall.jpg");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -61,7 +61,7 @@ body {
 }
 
 .parallax-three {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ice-cave.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/ice-cave.jpg");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -70,7 +70,7 @@ body {
 }
 
 .parallax-four {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/rhino-rock.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/rhino-rock.jpg");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
